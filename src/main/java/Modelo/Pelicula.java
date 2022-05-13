@@ -16,7 +16,8 @@ public class Pelicula {
     private String genero;
     private Personaje unPersonaje;
 
-    public Pelicula(int codigo, String nombre, String director, String produccion, String genero, Personaje unPersonaje) {
+    public Pelicula(int codigo, String nombre, String director, String produccion, 
+            String genero, Personaje unPersonaje) {
         this.codigo = codigo;
         this.nombre = nombre;
         this.director = director;

@@ -17,7 +17,8 @@ import java.util.List;
 public class PeliculaControl {
     public PeliculaServicio peliculaServicio = new PeliculaServicio();
     
-    public Pelicula crear(int c, String N, String D, String P, String G, int id, String nP, String aP, String lnP, String eP){
+    public Pelicula crear(int c, String N, String D, String P, String G, int id, 
+            String nP, String aP, String lnP, String eP){
         var personaje = new Personaje(id, nP, aP, lnP, eP);
         var pelicula = new Pelicula(c, N, D, P, G, personaje);
         this.peliculaServicio.crear(pelicula); 
